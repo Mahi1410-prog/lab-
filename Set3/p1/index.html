@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initail-scale=1">
+    <title>Flask Program 1</title>
+</head>
+<body>
+   <h1> Hello World</h1>
+   {{data}}
+   <table border="1">
+       <tr>
+           <th>Name</th>
+           <th>Roll NO</th>
+       </tr>
+
+      {% for i in data %}
+           <tr>
+               <td>{{i.name}}</td>
+               <td>{{i.roll_no}}</td>
+           </tr>
+
+       {% endfor %}
+   </table>
+
+</body>
+</html>
