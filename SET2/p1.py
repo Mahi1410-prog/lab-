@@ -1,6 +1,10 @@
 import random
 
 
+class BankAccount:
+    pass
+
+
 class Customer:
     def __init__(self, name, address, contact_number, bank):
         self.name = name
